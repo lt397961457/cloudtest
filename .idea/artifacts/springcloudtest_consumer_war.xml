@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springcloudtest-consumer:war">
+    <output-path>$PROJECT_DIR$/springcloudtest-consumer/target</output-path>
+    <root id="archive" name="springcloudtest-consumer.war">
+      <element id="artifact" artifact-name="springcloudtest-consumer:war exploded" />
+    </root>
+  </artifact>
+</component>

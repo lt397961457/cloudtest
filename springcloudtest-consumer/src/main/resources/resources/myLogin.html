@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录表单</title>
+</head>
+<br>
+    <form action="/unameAndPwdSubmit" method="post">
+        <input type="text" name="username"> </input></br>
+        <input type="password" name="password"> </input></br>
+        <input type="number" name="imageCode"><img src="/code/image"></br>
+        <input type="checkbox" name="remember-me" value="true" >记住我
+        <input type="submit" value="提交信息" />
+    </form></br>
+
+    <h3>社交登录</h3>
+   <!-- <a href="/auth/qq">QQ登录</a>-->
+    <!--<a href="/qqlogIn/callback.do">QQ登录</a>-->
+    <a href="/login/qq">QQ登录</a></br>
+    路径说明：所有的/auth 开头的 都会被Spring提供的 SocialAuthenticationFilter 拦截，SocialAuthenticationFilter  是如何生效的，SpringSocialConfigurer  配置以后就会生效。
+    /qq 就要和 代码里面的 providerId 对应
+</body>
+</html>

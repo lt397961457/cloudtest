@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>springcloudtest</artifactId>
+        <groupId>com.yly</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>springcloudtest-config-client</artifactId>
+    <packaging>war</packaging>
+    <name>springcloudtest-producer Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--*************************************************
+             springcloud 必须加入这个，否则下面的springcloud 相关的jar包拉取会出错
+             并且这个的版本与springboot（parent中）的版本有对应关系，如果对应不上会报XXXBean 找不到的一个错误
+             *********************************************************
+            -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Dalston.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- spring-kafka -->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.kafka</groupId>-->
+            <!--<artifactId>spring-kafka</artifactId>-->
+            <!--<version>1.3.0.RELEASE</version>-->
+        <!--</dependency>-->
+        <!-- spring-kafka end -->
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+            <version>3.6</version>
+        </dependency>
+
+        <!-- cloud config client -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>springcloudtest-producer</finalName>
+    </build>
+</project>

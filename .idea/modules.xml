@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloudtest.iml" filepath="$PROJECT_DIR$/springcloudtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudtest-config-client/springcloudtest-config-client.iml" filepath="$PROJECT_DIR$/springcloudtest-config-client/springcloudtest-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudtest-config-server/springcloudtest-config-server.iml" filepath="$PROJECT_DIR$/springcloudtest-config-server/springcloudtest-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudtest-consumer/springcloudtest-consumer.iml" filepath="$PROJECT_DIR$/springcloudtest-consumer/springcloudtest-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudtest-eureka/springcloudtest-eureka.iml" filepath="$PROJECT_DIR$/springcloudtest-eureka/springcloudtest-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudtest-producer/springcloudtest-producer.iml" filepath="$PROJECT_DIR$/springcloudtest-producer/springcloudtest-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudtest-trubine/springcloudtest-trubine.iml" filepath="$PROJECT_DIR$/springcloudtest-trubine/springcloudtest-trubine.iml" />
+    </modules>
+  </component>
+</project>

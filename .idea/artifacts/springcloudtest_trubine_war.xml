@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springcloudtest-trubine:war">
+    <output-path>$PROJECT_DIR$/springcloudtest-trubine/target</output-path>
+    <root id="archive" name="springcloudtest-producer.war">
+      <element id="artifact" artifact-name="springcloudtest-trubine:war exploded" />
+    </root>
+  </artifact>
+</component>

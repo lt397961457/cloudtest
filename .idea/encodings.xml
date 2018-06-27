@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudtest-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudtest-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudtest-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudtest-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudtest-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudtest-trubine" charset="UTF-8" />
+  </component>
+</project>

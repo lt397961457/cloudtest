@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springcloudtest-config-client" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloudtest-config-server" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloudtest-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloudtest-producer" />
+    <file type="web" url="file://$PROJECT_DIR$/springcloudtest-trubine" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudtest-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudtest-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudtest-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudstorm/dependency-reduced-pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springcloudstorm/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

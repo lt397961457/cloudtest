@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloudtest-config-client" />
+        <module name="springcloudtest-config-server" />
+        <module name="springcloudtest-consumer" />
+        <module name="springcloudtest-eureka" />
+        <module name="springcloudtest-producer" />
+        <module name="springcloudtest-trubine" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-storm" target="1.6" />
+      <module name="springcloud-storm (1)" target="1.5" />
+      <module name="springcloudtest" target="1.6" />
+      <module name="springcloudtest-config-client" target="1.6" />
+      <module name="springcloudtest-config-server" target="1.6" />
+      <module name="springcloudtest-consumer" target="1.8" />
+      <module name="springcloudtest-eureka" target="1.6" />
+      <module name="springcloudtest-producer" target="1.6" />
+      <module name="springcloudtest-trubine" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
